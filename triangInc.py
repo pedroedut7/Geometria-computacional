@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 pontos = []
 
-numeroLados = random.randint(4, 30)
+numeroLados = random.randint(4, 100)
 
 for i in range(numeroLados):
-    pontos.append((random.randint(4, 30),random.randint(4, 30)))
+    pontos.append((random.randint(4, 100),random.randint(4, 100)))
 
 xs = []
 ys = []
